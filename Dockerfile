@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 
 RUN apt update; \
     apt install -y git; \
-    pip install git+https://github.com/gardar/antsichaut.git@yaml-lint
+    pip install git+https://github.com/rndmh3ro/antsichaut.git@master
 
 COPY entrypoint.sh /entrypoint.sh
 
